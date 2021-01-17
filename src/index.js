@@ -1,9 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-
-//Import the add, multiply, subtract and divide functions
-//from the calculator.js file.
-//If successful, your website should look the same as the Final.png
+import { add, multiply, subtract, divide } from "./calculator";
 
 ReactDOM.render(
   <ul>
@@ -14,3 +11,6 @@ ReactDOM.render(
   </ul>,
   document.getElementById("root")
 );
+//Import the add, multiply, subtract and divide functions
+//from the calculator.js file.
+//If successful, your website should look the same as the Final.png
